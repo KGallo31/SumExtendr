@@ -1,0 +1,19 @@
+{
+    "name": "SumExtendr",
+    "version": "0.1.0",
+    "description": "SumExtendr for articles",
+    "permissions": ["storage", "tabs"],
+    "default_locale": "en",
+    "background": {
+      "service_worker": "src/background.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "assets/img/16x16.png",
+        "24": "assets/img/24x24.png"
+      },
+      "default_title": "SumExtendr",
+      "default_popup": "src/index.html"
+    },
+    "manifest_version": 3
+}
